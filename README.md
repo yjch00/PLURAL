@@ -7,12 +7,16 @@ Difference visual question answering (diff-VQA) is a challenging task that requi
 
 ![fig1](figure/f1.png)
 # Environment
-Follow environment of [OFA](https://github.com/OFA-Sys/OFA)
 
 
-python == 3.7.12
 ```python
+conda create -n plural python=3.7
+conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
 pip install -r requirements.txt
+cd PLURAL/fairseq/
+pip install ./
+cd ../
+sed '1d' requirements.txt | xargs -I {} pip install {}
 ```
 # Data Preparation and Preprocessing
 We use the two datasets: [MIMIC-CXR](https://physionet.org/content/mimic-cxr-jpg/2.0.0/) and [MIMIC-Diff-VQA](https://physionet.org/content/medical-diff-vqa/1.0.0/)
