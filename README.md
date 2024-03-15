@@ -44,3 +44,8 @@ We use the two datasets: [MIMIC-CXR](https://physionet.org/content/mimic-cxr-jpg
 ```python
 python test_eval.py
 ```
+
+# Related Codebase
+- [Fairseq](https://github.com/facebookresearch/fairseq)
+- [OFA](https://github.com/OFA-Sys/OFA?tab=readme-ov-file)
+- [pycocoevalcap](https://github.com/salaniz/pycocoevalcap)
