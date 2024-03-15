@@ -11,6 +11,7 @@ Difference visual question answering (diff-VQA) is a challenging task that requi
 
 ```python
 conda create -n plural python=3.7
+conda activate plural
 conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
 pip install -r requirements.txt
 cd PLURAL/fairseq/
