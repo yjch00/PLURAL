@@ -1,0 +1,14 @@
+.idea/*
+.DS_Store
+.vscode
+*__pycache__
+*jpg
+*jpeg
+checkpoints
+dataset
+run_scripts/caption/logs/
+*.pt
+*.log
+.ipynb_checkpoints/
+*.zip
+*.tsv
