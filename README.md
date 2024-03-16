@@ -26,7 +26,7 @@ We use the two datasets: [MIMIC-CXR](https://physionet.org/content/mimic-cxr-jpg
 
 
 # Checkpoints
-- [PLURAL.pt](https://drive.google.com/file/d/1VeGH9f9zfwD35aLWf7T7bqMzX3gsrY84/view?usp=sharing)
+- [PLURAL.pt](https://drive.google.com/file/d/1wjyUbmKrXheTCbigzmTZzlx7uQPQTnSE/view?usp=sharing)
 
 
 # Train
