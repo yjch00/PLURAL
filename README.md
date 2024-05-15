@@ -1,4 +1,4 @@
-# PLURAL
+# PLURAL (MIDL 2024)
 This repository is the implementation of [Pretraining Vision-Language Model for Difference Visual Question Answering in Longitudinal Chest X-ray](https://arxiv.org/abs/2402.08966)
 
 # Overview
